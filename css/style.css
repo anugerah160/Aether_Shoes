@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.awal{
+    background-image: linear-gradient(#86A789, #ffffff);
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #86A789;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* --------------navbar------------ */
+.nav-item a{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+.hero {
+    /* background-image: linear-gradient(#86A789, #ffffff); */
+    padding: 50px 0;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content img {
+    max-width: 100%;
+    width: 300px;
+    margin-top: 20px;
+}
+.hero-content .logo {
+    right: 0;
+    position: absolute;
+    margin-top: 50px;
+    width: 150px; /* Adjust as needed */
+}
+
+.btn-1{
+    float: right;
+    margin-right: 20%;
+    padding: 15px 28px;
+    background-color:#86A789;
+    color:#ffffff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: #ffffff;
+    color: #86A789;
+    border: 2px solid #86A789;
+}
+
+.right2{
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+/* ------------main----------------- */
+.text h1,p{
+    color: black;
+    float: left;
+}
+
+.text h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.text p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.conta {
+    margin-top: 40px;
+    text-align: center; /* Memposisikan elemen h1 di tengah-tengah */
+    margin-bottom: 20px; /* Berikan ruang antara elemen h1 dan .container */
+}
+.kole {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.box {
+    background-color: #86A789;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+  
+.box img {
+    max-width: 250px;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    cursor:pointer; 
+}
+
+.box p {
+    /* margin-bottom: 20px; */
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff; 
+}
+
+/* ------------footer------------- */
+.col-md-6 {
+    flex: 1;
+    padding: 20px;
+}
+  
+.col-md-6:first-child {
+    margin-right: 20px; /* Jarak antara kolom */
+}
+
+.col-md-6 p{
+    width: 77%;
+    margin-left: 43px;
+    font-size: large;
+}
+.col-md-6 h1{
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.col-md-6 h2{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* -----------pembatas----------------- */
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+.horizontal-line {
+    width: 93%;
+    height: 5px;
+    background-color: black; 
+}
+
+
+.features {
+    padding: 50px 0;
+}
+.features .feature {
+    text-align: center;
+}
+.features .feature img {
+    width: 50px;
+    height: 50px;
+}
+.footer {
+    padding: 20px 0;
+}
+
+.me-3 img{
+    margin: 10px 30px 0;
+    cursor: pointer;
+}
+.pbawah p{
+    width: 90%;
+    margin-left: 0;
+    font-size: large;
+}
+    @media (min-width: 768px) {
+        .hero-content {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .hero-content .text {
+            flex: 1;
+            text-align: left;
+            margin-right: 20px;
+        }
+        .hero-content img {
+            width: 400px;
+            margin-top: 0;
+        }
+        .hero-content .logo {
+            top: -100px; /* Adjust as needed */
+            width: 200px; /* Adjust as needed */
+        }
+    }

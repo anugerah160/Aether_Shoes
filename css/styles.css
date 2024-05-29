@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-image: linear-gradient(#86A789, #ffffff);
+    /* background-color: #fff; */
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.profile-box {
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* background-image: linear-gradient(#86A789, #ffffff); */
+    background-color: #fff;
+}
+  
+.profile-box h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    /* width: 50px;
+    height: 50px; */
+    display: block;
+    margin: 0 auto 20px; /* agar gambar posisinya di tengah-tengah */
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+table td:nth-child(2) {
+    text-align: right;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color:#86A789;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #ffffff;
+    color: #86A789;
+}
+  
